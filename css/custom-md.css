@@ -1,0 +1,445 @@
+@media (min-width: 992px) {
+    .mw-header {
+        height: 50px;
+    }
+
+    .mw-header .mw-logo {
+        left: 10px;
+        top: 20px;
+        height: 69px;
+        width: 120px;
+    }
+
+    .mw-header .mw-nav ul li {
+        margin: 0px 25px;
+    }
+
+    .banner-swiper-next,
+    .banner-swiper-prev {
+        width: 35px;
+        height: 55px;
+    }
+
+    .banner-swiper-next {
+        right: 40px;
+    }
+
+    .banner-swiper-prev {
+        left: 40px;
+    }
+
+    .swiper-pagination-switch {
+        width: 12px;
+        height: 12px;
+        margin: 0px 5px;
+    }
+
+    .mw-project {
+		height: 600px;
+        margin-top: 0px;
+        padding: 0px 0px 0px;
+    }
+
+    .mw-project .title {
+        font-size: 32px;
+    }
+
+    .mw-project .proBox {
+        overflow: hidden;
+    }
+
+    .mw-project .pr-tabs {
+        width: 25%;
+        float: left;
+    }
+
+    .mw-project .pr-tabs ul {
+        margin-bottom: 20px;
+        display: block;
+       
+    }
+
+    .mw-project .pr-tabs li {
+        display: block;
+        font-size: 16px;        
+        text-align: left;
+        background-size: 0px;
+        margin: 5px auto;
+        line-height:1.6;
+        cursor: pointer;
+        width: 100%;
+    }
+
+    .mw-project .pr-tabs li::after {
+        width: 24px;
+        height: 14px;
+    }
+
+    .mw-project .pr-tabs li.active {
+        border-bottom: 2px solid #2b2b33;
+        background-size: auto 14px;
+    }
+
+    .mw-project .swiper-container {
+        position: absolute;
+        z-index: 2;
+        width: 75%;
+        height: auto;
+        right: 0px;
+    }
+
+    .mw-project .content-slide {
+        width: 70%;
+        padding-bottom: 35%;
+        margin: 40px;
+        box-shadow: 0px 0px 50px rgba(0, 0, 0, .3);
+    }
+
+    .mw-project .content-slide .pr-more {
+        margin-top: -25px;
+        margin-left: -70px;
+        line-height: 50px;
+        height: 50px;
+        width: 140px;
+    }
+
+    .pr-pages {
+        width: 75%;
+        font-size: 0;
+        overflow: hidden;
+        position: absolute;
+        bottom: 40px;
+    }
+
+    .pr-page {
+        font-size: 13px;
+    }
+
+    .pr-swiper-next,
+    .pr-swiper-prev {
+        width: 23px;
+        height: 14px;
+    }
+
+
+    .mw-surrou {
+        margin-top: 50px;
+        padding: 50px 0px;
+    }
+
+    .mw-studio .info .title {
+        font-size: 26px;
+        padding: 10px;
+    }
+
+    .mw-studio .info .text {
+        font-size: 13px;
+    }
+
+    .mw-studio .arrow {
+        width: 40px;
+        height: 40px;
+        border-radius: 40px;
+        right: -20px;
+        top: 50%;
+        margin-top: -20px;
+    }
+
+    .mw-team {
+        margin-top: 50px;
+        padding: 50px 0px;
+    }
+
+    .mw-team .team-title {
+        font-size: 32px;
+    }
+
+    .mw-team .team-pic {
+        margin-top: 50px;
+    }
+
+    .mw-jion {
+        margin-top: 50px;
+        padding: 50px 0px;
+    }
+
+    .mw-jion .jion-title {
+        font-size: 32px;
+    }
+
+
+    .mw-jion .jion-swiper {
+        padding: 50px auto;
+    }
+
+
+    .mw-jion .swiper-slide {
+        font-size: 0;
+    }
+
+    .jionBox {
+        margin: 50px 0 0;
+        border-bottom: 0;
+        padding-bottom: 0px;
+        display: inline-block;
+        width: 33.33333%;
+        padding: 0px 15px;
+        vertical-align: top;
+    }
+
+
+    .jion-swiper-next,
+    .jion-swiper-prev {
+        display: block;
+        width: 36px;
+        height: 36px;
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+        display: inline-block;
+        position: absolute;
+        top: 50%;
+        border-radius: 100%;
+        background-color: #000;
+        background-size: 25px 18px;
+    }
+
+    .jion-swiper-next {
+        background-image: url(../image/arrow_03.png);
+        right: 5%;
+    }
+
+    .jion-swiper-prev {
+        background-image: url(../image/arrow_03.png);
+        left: 5%;
+        -ms-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+
+
+
+    /*
+    .jionBoxTwo {
+        width: 66.6666%;
+        position: relative;
+    }
+    .jionBoxTwo .titleright{
+        position: absolute;
+        left: 50%;
+        top:70px;
+    }
+    .jionBoxTwo .en-left{        
+        width: 45%;
+        float: left;
+    }
+    .jionBoxTwo .en-right{
+        width: 45%;
+        float: right;
+        padding-top: 30px;
+    }
+*/
+    .jionBox .jion-name {
+        font-size: 16px;
+        line-height: 2.2;
+        font-weight: 500;
+        color: #000;
+    }
+
+    .jionBox .jion-name span {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .jionBox .jion-content {
+        font-size: 13px;
+        height: 320px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .jionBox .jion-content .jion-over {
+        height: auto;
+    }
+
+    .jionBox .jion-content .arrow {
+        width: 14px;
+        height: 12px;
+        position: absolute;
+        right: 20px;
+        bottom: 0px;
+        background: url(../image/ico_more.png) no-repeat;
+        background-size: contain;
+        display: block;
+        cursor: pointer;
+
+    }
+
+    .jionBox .jion-content .arrow.up {
+        -webkit-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+
+    .jionBox .small-title {
+        font-size: 15px;
+    }
+
+    .jionBox .jion-content ul {}
+
+    .jionBox .jion-content ul li {
+        color: #666;
+        padding: 10px 0px;
+        line-height: 1.6;
+    }
+
+    .jion-resume {
+        height: 40px;
+        line-height: 40px;
+        width: 120px;
+        font-size: 14px;
+    }
+
+    .mw-button {
+        display: block;
+        background: #eb8030;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+
+
+
+    .JionPagination {
+        clear: both;
+        padding-top: 50px;
+    }
+
+    .JionPagination .swiper-pagination-switch {
+        width: 12px;
+        height: 12px;
+        margin: 0px 8px;
+        background: #eee;
+        border-radius: 12px;
+    }
+
+    .JionPagination .swiper-active-switch {
+        background: #ee7800;
+    }
+
+    .mw-footer {
+        
+        background: #2b2b33;
+        padding: 0px 0px 0px;
+    }
+
+    .mw-footer .ico-box {
+        text-align: center;
+    }
+
+    .mw-footer .ico-box .ico-list {
+        width: 30px;
+    }
+
+
+
+    .mw-footer .copyright {
+        margin-top: 50px;
+        padding: 30px auto;
+        font-size: 12px;
+    }
+
+    /*子页面*/
+    .mw-sub-header {
+        height: 80px;
+        background: #fff;
+    }
+
+
+    .mw-sub-body {
+        padding-top: 80px;
+    }
+
+    .mw-sub-banner {
+        width: 100%;
+        overflow: hidden;
+        height: auto;
+    }
+
+    .mw-sub-banner img {
+        width: 100%;
+        height: auto;
+        min-height: 150px;
+    }
+
+    .mw-sub-box {
+        margin-top: 50px;
+        background: #f8f8f8;
+        padding: 50px 0px;
+    }
+
+    .mw-sub-title {
+        font-size: 30px;
+    }
+
+    .mw-part1 {
+        padding-bottom: 50px;
+    }
+
+
+    .mw-part1 .part1-items {
+        margin: 30px -10px 0px;
+    }
+
+    .mw-part1 .part1-item {
+        width: 25%;
+        padding: 0 -10px;
+    }
+
+
+    .mw-part1 .part1-item .text-box {
+        font-size: 14px;
+        height: 50px;
+    }
+
+    .mw-part1 .part1-info {
+        font-size: 14px;
+    }
+
+
+
+    .mw-part2 .part2-items {
+        margin: 50px -10px 0px;
+    }
+
+    .mw-part2 .part2-item {
+        width: 33.333%;
+    }
+
+    .mw-part2 .part2-list {
+        width: 300px;
+        height: 210px;
+    }
+
+
+    .mw-sub-boxTwo {
+        margin-top: 50px;
+        padding: 50px 0px;
+    }
+
+    .mw-part3 .part3-items {
+        margin: 50px -10px 0;
+
+    }
+
+    .mw-part3 .part3-item {}
+
+
+    .artist-swiper-next,
+    .artist-swiper-prev {
+        display: block;
+    }
+
+
+
+
+}

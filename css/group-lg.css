@@ -1,0 +1,852 @@
+@media (min-width: 1440px) {
+    .uy-header {
+        height: 184px;
+    }
+
+    .uy-header .uy-logo {
+        height: 83px;
+        width: 185px;
+        margin-top: -42px;
+    }
+
+    .uy-header .uy-nav {
+        left: 25%;
+    }
+
+    .uy-header .uy-nav ul li {
+        font-size: 18px;
+        margin: 0px 4.5%;
+    }
+
+    .uy-english {
+        top: -80px;
+    }
+
+    .uy-banner .swiper__banner {
+        height: 530px;
+        padding-bottom: 0;
+    }
+
+    .home-pagination {
+        bottom: 20px;
+
+    }
+
+    .home-swiper-prev,
+    .home-swiper-next {
+        display: block;
+        width: 26px;
+        height: 49px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        cursor: pointer;
+    }
+
+    .home-swiper-prev {
+        left: 2%;
+        background-image: url(../image/ico_prev.png);
+
+    }
+
+    .home-swiper-next {
+        right: 2%;
+        background-image: url(../image/ico_next.png);
+    }
+
+    .uy-home_ip,
+    .uy-home-app,
+    .uy-home-program,
+    .uy-home_sur {
+        padding: 10%;
+    }
+
+    .uy-home_pul-title {
+        font-size: 45px;
+    }
+
+    .uy-home_pul-info {
+        font-size: 15px;
+        padding: 0px 7.2291667%;
+    }
+
+    .uy-home_ip-main .ip-item .ip-pic {
+        width: 108px;
+    }
+
+    .uy-home_ip-main .ip-item .ip-text {
+        padding: 3%;
+    }
+
+    .uy-home_ip-main .ip-item .ip-text .title {
+        font-size: 18px;
+    }
+
+    .uy-home_ip-main .ip-item .ip-text .text {
+        font-size: 14px;
+    }
+
+    .pub-button {
+        font-size: 30px;
+        border-radius: 15px;
+    }
+
+    .gram-main {
+        padding: 2% 0;
+    }
+
+    .gram-main .gram-item {
+        margin: 5% 0;
+    }
+
+    .gram-main .gram-item .gram-pic img {
+        border-radius: 20px;
+        width: 100%;
+        height: auto;
+    }
+
+
+
+    .app-main .app-item .app-pic {
+        width: 126px;
+    }
+
+    .sur-main {
+        margin-top: 20px;
+    }
+
+    .sur-main .sur-item {
+        padding: 15px 0;
+
+    }
+
+    .sur-main .sur-item .sur-pic {
+        padding: 0 15%;
+    }
+
+
+    /*新闻&招聘*/
+    .news-Mainbox {
+        position: absolute;
+        left: 12.760417%;
+        top: 9.895833%;
+        width: 600px;
+        height: 650px;
+        z-index: 1;
+    }
+
+    .news-main .news-company {
+        left: 0;
+        top: 0;
+        width: 600px;
+        height: 280px;
+        font-size: 0;
+    }
+
+    .news-main .news-company .news-title {
+        width: 185px;
+        display: inline-block;
+        height: 280px;
+        padding: 40px 10px 20px 20px;
+        vertical-align: top;
+    }
+
+    .news-main .news-company .news-title .news-name {
+        font-size: 24px;
+        padding-left: 0px;
+    }
+
+    .news-main .news-company .news-title .news-more {
+        position: relative;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-top: 140px;
+        font-size: 14px;
+        text-align: center;
+        padding: 10px 30px;
+    }
+
+    .news-main .news-company .news-title .news-more::before {
+        background-size: 32px auto;
+        width: 32px;
+        height: 34px;
+        top: -34px;
+    }
+
+    .news-main .news-company .news-content {
+        display: inline-block;
+        height: 280px;
+        margin: 0px;
+        vertical-align: top;
+        padding: 10px 20px 10px 0px;
+        width: 415px;
+    }
+
+    .news-main .news-company .news-content .news-item {
+        display: block;
+        font-size: 0;
+    }
+
+    .news-main .news-company .news-content .news-item .date {
+        display: inline-block;
+        color: #ee7800;
+
+        font-size: 14px;
+        vertical-align: middle;
+        width: 15%;
+    }
+
+    .news-main .news-company .news-content .news-item .date span {
+        font-size: 30px;
+    }
+
+    .news-main .news-company .news-content .news-item .list {
+        display: inline-block;
+        font-size: 14px;
+        vertical-align: middle;
+        width: 85%;
+    }
+
+    .news-video {
+        width: 288px;
+        top: auto;
+        bottom: 5%;
+        left: 0%;
+    }
+
+    .news-video .video-text {
+        font-size: 14px;
+
+    }
+
+    .news-jion {
+        top: auto;
+        bottom: 5%;
+        right: auto;
+        width: 288px;
+        right: 0;
+        padding: 0;
+    }
+
+
+    .news-jion .jion-text {
+        font-size: 13px;
+        margin-bottom: 0;
+
+    }
+
+    /*衍生品*/
+
+    .business-ul li {
+        font-size: 30px;
+    }
+
+    .business-right {
+        margin-left: -60px;
+    }
+
+    .business-main {
+        padding: 4.684867% 14% 0 20%;
+    }
+
+
+    .business-title {
+        font-size: 48px;
+    }
+
+    .business-content {
+        margin-top: 30px;
+        font-size: 15px;
+    }
+
+    .business-ico {
+        background-size: 280px auto;
+        width: 280px;
+        height: 172px;
+        bottom: 60px;
+    }
+
+    .team-right {
+        margin-right: -60px;
+    }
+
+    .team-ico {
+        background-size: 240px auto;
+        width: 240px;
+        height: 220px;
+        bottom: 60px;
+    }
+
+    .aims-right {
+        margin-left: -60px;
+    }
+
+    .aims-ico {
+        right: -10.90625%;
+        background-size: 134px auto;
+        width: 134px;
+        height: 354px;
+    }
+
+    /*IP*/
+    .um-back {
+        padding: 80px 0;
+    }
+
+    .um-pub-title {
+        font-size: 48px;
+    }
+
+    .um-pub-title_black {
+        margin-top: 80px;
+        font-size: 36px;
+    }
+
+    .um-pub-tips {
+        margin-top: 20px;
+        font-size: 24px;
+        line-height: 1.8;
+
+    }
+
+    .um-emp .emp-main {
+        margin-top: 80px;
+        font-size: 20px;
+        color: #666;
+    }
+
+    .um-you {
+        padding: 0px 8%;
+    }
+
+    .um-you .you-main {
+        margin-top: 65px;
+    }
+
+    .um-you .you-main .you-item {
+        margin: 25px 0;
+        padding: 0px 5%;
+    }
+
+
+    .um-you .you-main .you-item .item-title {
+        font-size: 28px;
+    }
+
+    .um-you .you-main .you-item .item-content {
+        font-size: 16px;
+        line-height: 1.7;
+    }
+
+    /*U优*/
+    .um-Uyou {}
+
+    .um-Uyou .Uyou-main {
+        margin-top: 80px;
+    }
+
+    .um-Uyou .Uyou-main .Uyou-item {
+        margin-top: 10px;
+    }
+
+    .um-Uyou .Uyou-main .Uyou-item:first-child {
+        margin: 0%;
+    }
+
+    .um-Uyou .Uyou-main .Uyou-item .Uyou-position.Uy_01 {
+        padding-top: 75%;
+    }
+
+    .um-Uyou .Uyou-main .Uyou-item .Uyou-position.Uy_02 {
+        padding-top: 90%;
+    }
+
+    .um-Uyou .Uyou-main .Uyou-item .Uyou-position.Uy_03 {
+        padding-top: 85%;
+    }
+
+    .um-Uyou .Uyou-main .Uyou-item .Uyou-position.Uy_04 {
+        padding-top: 95%;
+    }
+
+    .um-Uyou .Uyou-main .Uyou-item .Uyou-position.Uy_05 {
+        padding-top: 80%;
+    }
+
+    .um-Uyou .Uyou-main .Uyou-item .Uyou-title {
+        font-size: 18px;
+    }
+
+    .um-Uyou .Uyou-main .Uyou-item .Uyou-tips {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+
+
+
+    .um-partner {
+        margin-top: 80px;
+        padding: 0px 7%;
+    }
+
+    .um-partner .partner-main {
+        margin-top: 80px;
+    }
+
+    .swiper-partner-container {
+        margin-top: 130px;
+    }
+
+    .um-partner .partner-main .partner-top {
+        top: -20px;
+        width: 466px;
+    }
+
+    .um-partner .partner-main .partner-top .partener-title {
+        padding-top: 8%;
+        font-size: 26px;
+    }
+
+    .um-partner .partner-main .partner-content {
+        padding: 0px 15%;
+    }
+
+    .um-partner .partner-main .partner-content .partner-item {
+        width: 20%;
+        padding: 10px 30px;
+    }
+
+    .um-partner .partner-main .partner-content.part2 .partner-item {
+        width: 35%;
+        height: 97px;
+    }
+
+    .um-partner .partner-main .partner-content.part3 .partner-item {
+        width: 25%;
+        height: 97px;
+    }
+
+    .um-partner .partner-main .partner-content .partner-item img {
+        height: auto;
+        max-height: 50px;
+    }
+
+    .um-ability {
+        margin-top: 80px;
+    }
+
+    .um-ability .ability-main {
+        margin-top: 80px;
+    }
+
+    .um-ability .ability-main .ability-item {
+        width: 25%;
+        padding: 0px 2%;
+    }
+
+    .um-ability .ability-main .ability-item .item-back .item-tips {
+        padding: 0px 20px;
+    }
+
+    .um-ability .ability-main .ability-item .item-back .item-tips .big {
+        font-size: 24px;
+    }
+
+    .um-ability .ability-main .ability-item .item-back .item-tips .small {
+        font-size: 18px;
+    }
+
+
+    .um-multi {
+        padding: 0px 10%;
+    }
+
+    .um-multi .multi-main {
+        margin-top: 80px;
+    }
+
+    .um-multi .multi-main .multi_item_01 {
+        padding-left: 50px;
+    }
+
+    .um-multi .multi-main .multi_item_01 .title {
+        width: 140px;
+        font-size: 20px;
+        text-align: left;
+        margin-top: 1%;
+    }
+
+    .um-multi .multi-main .multi_item_01 .line {
+        width: 15px;
+        left: 30px;
+    }
+
+    .um-multi .multi-main .multi_item_01 .line::before {
+        width: 30px;
+        height: 20px;
+        left: -7px;
+        top: -19px;
+    }
+
+    .um-multi .multi-main .multi_item_01 .list {
+        margin: 3px 5px;
+    }
+
+    .um-multi .multi-main .multi_item_01 .list .item {
+        width: 11.111111111%;
+    }
+
+    .um-multi .multi-main .multi_item_01.item2,
+    .um-multi .multi-main .multi_item_01.item3,
+    .um-multi .multi-main .multi_item_01.item4 {
+        margin-top: 8px;
+    }
+
+    .um-multi .multi-main .multi_years {
+        padding-left: 30px;
+        margin-right: -15px;
+    }
+
+    .um-multi .multi-main .year1 .line {
+        height: 15px;
+    }
+
+    .um-multi .multi-main .year1 .text {
+        font-size: 20px;
+    }
+
+    .um-multi .multi-main .multi_years .year1 {
+        width: 30%;
+    }
+
+    .um-multi .multi-main .multi_years .year1.year3 {
+        width: 20%;
+    }
+
+    .um-multi .multi-main .multi_years .year1.year4 {
+        width: 20%;
+    }
+
+
+    .um-multi .multi-main .multi_years .year1.year4 .line::after {
+        width: 30px;
+        height: 20px;
+        right: -22px;
+        top: -2px;
+        -ms-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+
+    .um-multi .multi-main .multi_years .year1.year4 .text {
+        font-size: 16px;
+    }
+
+    .um-union {
+        padding: 0px 25%;
+    }
+
+    .um-union .um-pub-title_black {
+        margin-top: 50px;
+    }
+
+    .um-union .union-main {
+        margin-top: 50px;
+    }
+
+    .um-menu_item {
+        padding: 20px 30px 20px 10px;
+    }
+
+    /*节目库*/
+    .uy-gram {
+        margin-top: -60px;
+        margin-bottom: 80px;
+    }
+
+    .uy-gram .gram-filters li {
+        font-size: 20px;
+        line-height: 60px;
+        width: 210px;
+    }
+
+
+    .uy-gram .gram-main ul li {
+        width: 25%;
+    }
+
+    .uy-gram .gram-main ul li .gram-title {
+        font-size: 16px;
+    }
+
+    /*APP*/
+
+
+    .app-banner .app-position {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        padding-top: 0;
+        padding-right: 0;
+        text-align: center;
+        padding-left: 55%;
+    }
+
+    .app-banner .app_info {
+        width: 360px;
+    }
+
+
+    .app-banner .app_info .app-tips {
+        margin-top: 40px;
+    }
+
+    .app-banner .app_info .app-tips .big {
+        font-size: 33px;
+
+    }
+
+    .app-banner .app_info .app-tips .small {
+        font-size: 15px;
+    }
+
+    .app-banner .app-down {
+        margin-top: 60px;
+    }
+
+
+    .app-interest {
+        margin-top: 220px;
+        padding: 0 5%;
+    }
+
+    .app-interest .interest-title {
+        font-size: 40px;
+    }
+
+    .app-interest .interest-tips {
+        margin-top: 50px;
+        font-size: 18px;
+        line-height: 1.8;
+        font-weight: 200;
+    }
+
+    .app-interest .interest-content {
+        font-size: 0;
+        margin-top: 110px;
+    }
+
+    .app-interest .interest-item {
+        font-size: 36px;
+    }
+
+
+    .app-light {
+        margin-top: 120px;
+        margin-bottom: 120px;
+    }
+
+    .app-light .light-title {
+        font-size: 40px;
+    }
+
+    .app-light .light-main {
+        margin-top: 150px;
+    }
+
+    .light-main .row.pt-margin {
+        margin-top: 220px;
+    }
+
+    .app-pub-title {
+        font-size: 20px;
+
+    }
+
+    .app-pub-content {
+        font-size: 18px;
+        line-height: 1.6;
+        font-weight: 300;
+
+    }
+
+
+}
+
+@media (min-width: 1600px) {
+    .uy-home_ip {
+        padding: 10% 10% 0 24.4479167%;
+    }
+
+    .uy-home_ip-main {
+        margin-top: 5%;
+    }
+
+    .uy-home_ip-main .ip-item {
+        padding-top: 5%;
+    }
+
+    .uy-home-program {
+        padding: 10% 24.4479167% 0 10%;
+
+    }
+
+    .gram-main {
+        padding: 0% 8%;
+    }
+
+    .gram-main .gram-item .gram-pic {
+        padding: 0px 10%;
+    }
+
+    .um-partner .partner-main .partner-content {
+        padding-bottom: 30px;
+    }
+
+
+    .um-partner .partner-main .partner-content .partner-item img {
+
+        max-height: 57px;
+    }
+
+
+
+
+    .uy-home-app {
+        padding: 10% 10% 0 20%;
+    }
+
+    .uy-home_sur {
+        padding: 10% 24.4479167% 0 10%;
+    }
+
+    .app-main {
+        margin-top: 5%;
+        padding: 0px 10%;
+    }
+
+    .app-main .app-item {
+        padding: 5% 2%;
+    }
+
+    .sur-main .sur-item {
+        padding: 30px 0;
+
+    }
+
+    .sur-main .sur-item .sur-pic {
+        padding: 0 10%;
+    }
+
+
+    .news-jion,
+    .news-video {
+        bottom: 2%;
+    }
+
+    .um-you .you-main .you-item {
+        padding: 0px 6%;
+    }
+
+    .um-multi .multi-main .multi_item_01 {
+        padding-left: 90px;
+    }
+
+    .um-multi .multi-main .multi_item_01 .title {
+        width: 170px;
+        font-size: 24px;
+
+    }
+
+    .um-multi .multi-main .multi_item_01 .line {
+        width: 20px;
+        left: 60px;
+    }
+
+    .um-multi .multi-main .multi_item_01 .line::before {
+        width: 41px;
+        height: 28px;
+        left: -11px;
+        top: -27px;
+    }
+
+
+
+
+    .um-multi .multi-main .multi_years {
+        padding-left: 60px;
+        margin-right: -20px;
+    }
+
+    .um-multi .multi-main .year1 .line {
+        height: 20px;
+    }
+
+    .um-multi .multi-main .year1 .text {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+
+    .um-multi .multi-main .multi_years .year1 {
+        width: 30%;
+        padding-right: 8px;
+    }
+
+    .um-multi .multi-main .multi_years .year1.year3 {
+        width: 20%;
+    }
+
+    .um-multi .multi-main .multi_years .year1.year4 {
+        width: 20%;
+    }
+
+
+    .um-multi .multi-main .multi_years .year1.year4 .line::after {
+        width: 41px;
+        height: 28px;
+        right: -32px;
+        top: -4px;
+
+    }
+
+    .um-multi .multi-main .multi_years .year1.year4 .text {
+        font-size: 24px;
+    }
+
+    .app-interest .interest-title {
+        font-size: 48px;
+    }
+
+}
+
+@media (min-width: 1920px) {
+    .gram-main {
+        padding: 3% 8%;
+    }
+
+    .sur-main .sur-item .sur-pic {
+        padding: 0 5%;
+    }
+
+    .news-jion,
+    .news-video {
+
+        bottom: 0%;
+
+    }
+
+    .uy-Surrounding .uy-banner .swiper__banner {
+        height: 620px;
+        padding-bottom: 0;
+    }
+
+    .uy-marketing .uy-banner .swiper__banner {
+        height: 480px;
+        padding-bottom: 0;
+    }
+}

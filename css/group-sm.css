@@ -1,0 +1,6 @@
+@media (min-width: 768px) {
+    .uy-banner .swiper__banner {
+        min-height: 250px;
+        background-position: right center;
+    }
+}

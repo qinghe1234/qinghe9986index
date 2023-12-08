@@ -1,0 +1,316 @@
+@media (min-width: 1200px) {
+    .mw-header {
+        height: 80px;
+    }
+
+    .mw-header .mw-logo {
+        left: 40px;
+        top: 20px;
+        height: 64px;
+        width: 138px;
+    }
+
+
+    .mw-header .mw-nav {
+        right: 20px;
+    }
+
+    .mw-header .mw-nav ul li {
+        margin: 0px 30px;
+        font-weight: 400;
+    }
+
+    .swiper-pagination-switch {
+        width: 15px;
+        height: 15px;
+        margin: 0px 8px;
+    }
+
+    .mask-tran {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        display: block;
+    }
+
+    .banner-swiper-next,
+    .banner-swiper-prev {
+        width: 45px;
+        height: 85px;
+    }
+
+    .banner-swiper-next {
+        right: 80px;
+    }
+
+    .banner-swiper-prev {
+        left: 80px;
+    }
+
+    .mw-project {
+		height: 800px;
+        margin-top: 0px;
+        padding: 0px 0px 0px;
+    }
+
+    .mw-project .title {
+        font-size: 48px;
+    }
+
+    .mw-project .pr-tabs {
+        width: 15%;
+    }
+    .mw-project .pr-tabs ul {
+        margin-top: 50px;
+    }
+
+    .mw-project .pr-tabs li {
+        width: 100%;
+    }
+
+    .mw-project .pr-tabs li:after {
+        width: 30px;
+        height: 18px;
+    }
+
+    .pr-swiper-next,
+    .pr-swiper-prev {
+        width: 30px;
+        height: 18px;
+    }
+
+    .mw-project .swiper-container {
+        width: 72%;
+    }
+
+    .mw-project .content-slide {
+        width: 815px;
+        padding-bottom: 0;
+        height: 420px;
+    }
+
+    .mw-project .content-slide .pr-more {
+        margin-top: -25px;
+        margin-left: -65px;
+        line-height: 50px;
+        height: 50px;
+        width: 130px;
+    }
+
+    .pr-pages {
+        width: 815px;
+    }
+
+    .pr-page {
+        font-size: 14px;
+    }
+
+    .pr-page span {
+        font-size: 18px;
+    }
+
+    .pr-swiper-next,
+    .pr-swiper-prev {
+        width: 30px;
+        height: 18px;
+    }
+
+    .mw-surrou {
+        margin-top: 80px;
+        padding: 80px 0px;
+    }
+
+    .mw-studio .info .title {
+        font-size: 30px;
+        padding-top: 20px;
+
+    }
+
+    .mw-studio .info .text {
+        font-size: 16px;
+        font-weight: 300;
+        padding: 0 5%;
+        line-height: 2.5;
+    }
+
+    .mw-team {
+        margin-top: 80px;
+        padding: 80px 0px;
+    }
+
+    .mw-team .team-title {
+        font-size: 48px;
+    }
+
+    .mw-team .team-pic {
+        margin-top: 80px;
+    }
+
+    .mw-jion {
+        margin-top: 80px;
+        padding: 80px 0px;
+    }
+
+    .mw-jion .jion-title {
+        font-size: 48px;
+    }
+
+
+    .mw-jion .jion-swiper {
+        padding: 80px auto;
+    }
+
+    .jion-swiper-next,
+    .jion-swiper-prev {
+        width: 36px;
+        height: 36px;
+    }
+
+    .mw-jion .swiper-slide {
+        font-size: 0;
+    }
+
+    .jionBox {
+        margin: 80px 0 0;
+    }
+
+    .jionBox .jion-name {
+        font-size: 30px;
+
+    }
+
+    .jionBox .jion-name span {
+        font-size: 18px;
+    }
+
+    .jionBox .small-title {
+        font-size: 18px;
+    }
+
+    .jion-resume {
+        height: 50px;
+        line-height: 50px;
+        width: 130px;
+        font-size: 14px;
+    }
+
+    .jionBoxTwo .titleright {
+        top: 90px;
+    }
+
+    .jionBoxTwo .en-left {
+        width: 45%;
+        float: left;
+    }
+
+    .jionBoxTwo .en-right {
+        width: 50%;
+        float: right;
+        padding-top: 40px;
+    }
+
+    .JionPagination {
+        padding-top: 80px;
+    }
+
+    .JionPagination .swiper-pagination-switch {
+        width: 15px;
+        height: 15px;
+    }
+
+    .mw-footer {
+        
+        padding: 0px 0 0px;
+    }
+
+    .mw-footer .ico-box .ico-list {
+        width: 42px;
+    }
+
+    .mw-footer .copyright {
+        
+        padding: 30px auto;
+        font-size: 12px;
+    }
+
+    /*子页面*/
+    .mw-sub-header {
+        height: 100px;
+    }
+
+    .mw-sub-body {
+        padding-top: 100px;
+    }
+
+    .mw-sub-box {
+        margin-top: 70px;
+        background: #f8f8f8;
+        padding: 70px 0px;
+    }
+
+    .mw-sub-title {
+        font-size: 48px;
+    }
+
+    .mw-part1 {
+        padding-bottom: 50px;
+    }
+
+    .mw-part1 .part1-items {
+        margin: 50px -10px 0px;
+    }
+
+    .mw-part1 .part1-item {
+        width: 25%;
+        padding: 0 -10px;
+    }
+
+
+
+    .mw-part1 .part1-info {
+        font-size: 14px;
+    }
+
+
+
+    .mw-part2 .part2-items {
+        margin: 70px -10px 0px;
+    }
+
+
+
+    .mw-part2 .part2-list {
+        width: 320px;
+        height: 230px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+
+    .mw-sub-boxTwo {
+        margin-top: 90px;
+        padding: 90px 0px;
+    }
+
+    .mw-part3 .part3-items {
+        margin: 70px 0px 0;
+
+    }
+
+}
+
+
+@media (min-width: 1680px) {
+    .mw-project .swiper-container {
+        width: 68%;
+    }
+
+    .mw-project .swiper-slide-active {
+        opacity: 1;
+        margin-right: -150px;
+    }
+
+}

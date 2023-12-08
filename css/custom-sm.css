@@ -1,0 +1,421 @@
+@media (min-width: 768px) {
+    .mw-header {
+        position: absolute;
+        height: 60px;
+        display: block;
+        box-sizing: border-box;
+        padding: 0px;
+    }
+
+    .mv-model .model .model-info .text-br {
+        display: inline;
+    }
+
+    .mw-header .mw-logo {
+        position: absolute;
+        left: 0px;
+        top: 10px;
+        z-index: 5;
+        height: 49px;
+        width: 100px;
+    }
+
+    .mw-header .mw-logo a {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+    .mw-header .mw-nav-switch {
+        /* display: none !important; */
+    }
+
+    .mw-header .mw-nav {
+        position: absolute;
+        display: block !important;
+        background-color: transparent;
+        border-top: 0;
+        text-align: right;
+        padding-right: 20px;
+        padding-top: 0px;
+        box-sizing: border-box;
+        margin-top: 20px;
+        right: 10px;
+    }
+
+
+    .mw-header .mw-nav ul {
+        text-align: right;
+        font-size: 0;
+    }
+
+
+
+    .mw-header .mw-nav ul li {
+        width: auto;
+        display: inline-block;
+        border-bottom: 0;
+        padding: 0px;
+    }
+
+    .mw-header .mw-nav li a {
+        color: #fff;
+        display: block;
+    }
+
+    .mw-header .mw-nav ul li {
+        padding: 0 0px;
+        border-bottom: none;
+        font-size: 16px;
+        text-indent: 0px;
+        box-sizing: border-box;
+        margin: 0px 15px;
+    }
+
+    .mw-header .mw-nav ul li a:hover {
+        color: #ee7800;
+    }
+
+    .mw-header .mw-nav .submenu {
+        position: relative;
+    }
+
+    .mw-mobile-nav {
+        display: none;
+    }
+
+    .mw-computer-nav {
+        display: block;
+    }
+
+    .mw-header .mw-nav .submenu .project_menu {
+        display: none;
+    }
+
+    .mw-header .mw-nav .submenu:hover .project_menu {
+        display: block !important;
+        height: auto;
+        width: 150px;
+        color: #fff;
+        position: absolute;
+        left: -80px;
+        top: 0px;
+        border-radius: 15px;
+        padding-top: 40px;
+
+    }
+
+    .mw-header .mw-nav .submenu .project_menu li {
+        display: block;
+        text-align: left;
+        font-size: 14px;
+        background: #2b2b33;      
+        width: 100%;
+        border-bottom: 1px solid #4c4c66;
+        line-height: 1.6;
+        padding: 10px 0;
+        padding-left:15px;
+    }
+    .mw-header .mw-nav .submenu .project_menu li:first-child{
+        padding-top: 15px;
+    }
+    .mw-header .mw-nav .submenu .project_menu li:last-child{
+        padding-bottom: 15px;
+    }
+
+
+
+    .swiper-pagination-switch {
+        width: 10px;
+        height: 10px;
+    }
+
+    .mw-project {
+		height: 650px;
+        margin-top: 0px;
+        padding: 0px 0px;
+    }
+
+    .mw-project .title {
+        font-size: 26px;
+
+    }
+
+
+    .mw-project .pr-tabs li {
+        font-size: 16px;      
+        line-height: 1.6;
+        text-align: left;
+        width: 40%;
+        padding: 3px 0;
+        padding-right: 30px;
+    }
+
+    .mw-header .mw-nav ul li a {
+        color: #fff;
+    }
+
+    .mw-project .pr-tabs li.active {
+        background-size: auto 10px;
+    }
+
+    .mw-project .swiper-slide {
+        position: relative;
+        height: 100%;
+        overflow: hidden;
+        opacity: 0.2;
+        -webkit-transition: 300ms;
+        -moz-transition: 300ms;
+        -ms-transition: 300ms;
+        -o-transition: 300ms;
+        transition: 300ms;
+    }
+
+    .mw-project .swiper-slide-active {
+        opacity: 1;
+        margin-right: -100px;
+    }
+
+    .mw-project .content-slide {
+        width: 70%;
+        position: relative;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding-bottom: 40%;
+        height: 0;
+    }
+
+    .mw-project .content-slide .pr-more {
+        margin-top: -20px;
+        margin-left: -60px;
+        line-height: 40px;
+        height: 40px;
+        width: 120px;
+        font-size: 14px;
+    }
+
+
+    .pr-pages {
+        margin-top: 20px;
+        width: 100%;
+        display: block;
+        text-align: center;
+        height: 40px;
+        font-size: 0;
+        overflow: hidden;
+        position: absolute;
+        bottom: 0;
+    }
+
+    .pr-page {
+        font-size: 14px;
+        vertical-align: bottom;
+        display: inline-block;
+    }
+
+    .pr-page span {
+        font-size: 16px;
+    }
+
+    .mw-surrou {
+        margin-top: 40px;
+        padding: 40px 0px;
+        background: #fff;
+    }
+
+    .mw-studios {
+        font-size: 0;
+        overflow: hidden;
+    }
+
+    .mw-studios .swiper-slide {
+        float: left;
+    }
+
+    .mw-studio {
+        display: inline-block;
+        width: 50%;
+        background: #2b2b33;
+    }
+
+    .mw-studioTwo {
+        width: 100%;
+    }
+
+    .mw-studio .pic {}
+
+    .mw-studio .pic img {
+        width: 100%;
+        height: auto;
+    }
+
+    .mw-studio .info {
+        color: #fff;
+        text-align: center;
+        padding: 20px 10%;
+        position: relative;
+    }
+
+    .mw-studio .info .title {
+        font-size: 26px;
+        padding: 10px 0px;
+
+    }
+
+    .mw-studio .info .text {
+        line-height: 2.0;
+        font-size: 13px;
+    }
+
+    .mw-topTwo {
+        margin-top: 0px;
+    }
+
+    .mw-studioTwo .arrow {
+        transform: rotate(180deg);
+        left: 30px;
+    }
+
+    .mw-studio .arrow {
+        display: block;
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        border-radius: 40px;
+        background: #fff url(../image/arrow_01.png) no-repeat center;
+        background-size: 22px auto;
+        right: -15px;
+        top: 50%;
+        margin-top: -15px;
+        z-index: 1;
+        cursor: pointer;
+    }
+
+    .mw-team {
+        margin-top: 40px;
+        padding: 40px 0px;
+    }
+
+    .mw-team .team-title {
+        font-size: 26px;
+
+    }
+
+    .mw-team .team-pic {
+        margin-top: 40px;
+    }
+
+    .mw-jion {
+        margin-top: 40px;
+        padding: 40px 0px;
+    }
+
+    .mw-jion .jion-title {
+        font-size: 26px;
+
+    }
+
+
+    /*子页面*/
+    .mw-sub-header {
+        height: 80px;
+    }
+
+    .mw-sub-header .mw-nav ul li a {
+        color: #2b2b33;
+    }
+
+    .mw-sub-header .mw-nav .submenu:hover .project_menu {
+        display: block !important;
+        height: auto;
+        width:150px;
+        color: #fff;
+        position: absolute;
+        left: -80px;
+        top: 0px;
+        border-radius: 15px;
+        padding-top: 50px;
+    }
+
+   
+     .mw-sub-header .mw-nav .submenu .project_menu li {
+        display: block;
+        text-align: left;
+        font-size: 14px;
+        background: #2b2b33;
+        padding-left: 20px;
+        width: 100%;
+        
+    }
+    .mw-sub-header .mw-nav .submenu .project_menu li:first-child{
+        padding-top: 15px;
+    }
+    .mw-sub-header .mw-nav .submenu .project_menu li:last-child{
+        padding-bottom: 15px;
+    }
+    
+
+    .mw-sub-header .mw-nav .active .project_menu li a {
+        border: none;
+        font-weight: normal;
+        color: #fff;
+    }
+
+    .mw-sub-header .mw-nav .active .project_menu li a:hover {
+        color: #ee7800;
+    }
+
+    .mw-sub-body {
+        padding-top: 80px;
+    }
+
+
+    .mw-sub-box {
+        margin-top: 40px;
+        padding: 40px 0px;
+    }
+
+    .mw-sub-title {
+        font-size: 26px;
+    }
+
+    .mw-part1 {
+        padding-bottom: 40px;
+    }
+
+
+
+    .mw-part1 .part1-item .text-box {
+        font-size: 14px;
+    }
+
+    .mw-part1 .part1-info {
+        padding: 40px 0px;
+        line-height: 1.8;
+    }
+
+
+    .mw-part2 {}
+
+    .mw-part2 .part2-items {
+        margin: 40px -10px 0px;
+    }
+
+    .mw-part2 .part2-item {
+        width: 50%;
+    }
+
+    .mw-sub-boxTwo {
+        margin-top: 40px;
+        padding: 40px 0px;
+    }
+
+    .mw-part3 {}
+
+    .mw-part3 .part3-items {
+        margin: 40px -10px 0;
+    }
+
+
+}

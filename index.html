@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="renderer" content="webkit">
+		<meta http-equiv="Cache-Control" content="no-transform">
+		<meta http-equiv="Cache-Control" content="no-siteapp">
+		<meta name="applicable-device" content="pc,mobile">
+		<meta name="renderer" content="webkit">
+		<title>清禾</title>
+		<link href="css/themes.css" rel="stylesheet">
+		<link href="css/vide-js.css" rel="stylesheet">
+	</head>
+
+	<body>
+		<div id="root" class="mw-root">
+			<div class="mw-header">
+				<div class="mw-logo">
+					<a href="qinghe9986.top:2"></a>
+				</div>
+				<div class="mw-nav">
+					<div class="mw-english">
+						<a href="#" class="english_font">English</a> | <a href="#">中文</a>
+					</div>
+					<ul>
+						<li class="active">
+							<a href="">首页</a>
+						</li>
+						<li class="submenu">
+							<a href="#project" id="GoProject">项目</a>
+							<ul class="project_menu">
+								<li><a href="http://qinghe9986.top:8888">宝塔</a></li>
+								<li><a href="http://qinghe9986.top:2/yy/">搜音乐</a></li>
+								<li><a href="http://qinghe9986.top:2/music/">播放器</a></li>
+								<li><a href="http://qinghe9986.top:2/1tb/xyy/">喜羊羊</a></li>
+								<li><a href="http://qinghe9986.top:2/1tb/xcm/">熊出没</a></li>
+								<li><a href="http://qinghe9986.top:2/csz.html">猜数字</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="" id="">欢迎</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+
+
+			<div class="mw-body">
+				<div class="mw-banner">
+					<div class="swiper-container mw-studios-banner">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="banner-vider">
+									<video id="#show_video" class="video-js" autoplay="ture" muted="ture" loop="true"
+										preload="false" poster="image/index.png" data-setup="{}" width="100%">
+										<source src="http://qinghe9986.top:2/demo/index.mp4" type="video/mp4">
+										<p class="vjs-no-js">您的浏览器不支持播放此视频，请启用JavaScript，并考虑升级浏览器</p>
+									</video>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="banner-vider">
+									<video id="home_videoTwo" class="video-js" data-setup="{}" preload="false"
+										width="100%">
+										<source src="http://qinghe9986.top:2/demo/indextwo.mp4" type="video/mp4">
+										<p class="vjs-no-js">您的浏览器不支持播放此视频，请启用JavaScript，并考虑升级浏览器</p>
+									</video>
+								</div>
+							</div>
+						</div>
+						<div class="pagination"></div>
+						<div class="banner-swiper-prev"></div>
+						<div class="banner-swiper-next"></div>
+					</div>
+
+				</div>
+				<style>
+					.mw-project {
+
+						/* 	background-image: url(http://qinghe9986.top:2/img/bg.webp);
+						background-size: ;
+						background-repeat: no-repeat;
+						height: 800px; */
+
+
+						margin-top: 0;
+						padding-top: 0;
+						width: 100%;
+						/* block 元素 width 自动100%，可省略 */
+						
+						/* 设置最小宽度和高度 避免垂直居中元素 超出浏览器窗口宽高*/
+						min-width: 100%;
+						min-height: 80%;
+						/* center 是background-position 的值，意为 水平垂直居中 */
+						background: url(img/bg.webp) center no-repeat;
+						/* 如果背景图宽高不够，该属性可实现全尺寸 */
+						background-size: cover !important;
+					}
+				</style>
+				<div class="mw-project" id="project">
+					<div class="container">
+						<div class="title">
+							项目案例
+						</div>
+						<div class="proBox">
+							<div class="pr-tabs">
+								<ul>
+									<li class="active">宝塔</li>
+									<li>猜数字</li>
+									<li>搜音乐</li>
+									<li>播放器</li>
+									<li>喜羊羊</li>
+									<li>熊出没</li>
+								</ul>
+							</div>
+							<div class="swiper-container project">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide">
+										<a href="http://qinghe9986.top:8888">
+											<div class="content-slide"
+												style="background-image: url(http://qinghe9986.top:2/xin/img/baota.png)">
+												<div class="pr-more">
+													查看详情
+													<!-- 宝塔 -->
+												</div>
+											</div>
+										</a>
+									</div>
+									<div class="swiper-slide">
+										<a href="http://qinghe9986.top:2/csz.html">
+											<div class="content-slide"
+												style="background-image: url(http://qinghe9986.top:2/xin/img/csz.png)">
+												<div class="pr-more">
+													查看详情
+													<!-- 猜数字 -->
+												</div>
+											</div>
+										</a>
+									</div>
+
+									<div class="swiper-slide">
+										<a href="http://qinghe9986.top:2/yy/">
+											<div class="content-slide"
+												style="background-image: url(http://qinghe9986.top:2/xin/img/syy.png)">
+												<div class="pr-more">
+													查看详情
+													<!-- 搜音乐 -->
+												</div>
+											</div>
+										</a>
+									</div>
+
+									<div class="swiper-slide">
+										<a href="http://qinghe9986.top:2/music/">
+											<div class="content-slide"
+												style="background-image: url(http://qinghe9986.top:2/xin/img/bfq.png)">
+												<div class="pr-more">
+													查看详情
+													<!-- 播放器 -->
+												</div>
+											</div>
+										</a>
+									</div>
+
+									<div class="swiper-slide">
+										<a href="http://qinghe9986.top:2/1tb/xyy/">
+											<div class="content-slide"
+												style="background-image: url(http://qinghe9986.top:2/xin/img/xyy.png)">
+												<div class="pr-more">
+													查看详情
+													<!-- 喜羊羊 -->
+												</div>
+											</div>
+										</a>
+									</div>
+									<div class="swiper-slide">
+										<a href="http://qinghe9986.top:2/1tb/xcm/">
+											<div class="content-slide"
+												style="background-image: url(http://qinghe9986.top:2/xin/img/xcm.png)">
+												<div class="pr-more">
+													查看详情
+													<!-- 熊出没 -->
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="pr-pages">
+									<div class="pr-swiper-prev"></div>
+									<div class="pr-page"><span id="swiper-number">01</span>/6</div>
+									<div class="pr-swiper-next"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="mw-footer">
+				<div class="ico-box">
+					<div class="ico-list" id="showCode">
+						<img src="picture/ioc_weixin.png">
+					</div>
+					<br>
+					<div class="show-weixin" id="EwmCode">
+						<img src="picture/wx.jpg">
+					</div>
+				</div>
+				<div class="copyright">
+					by&<a style="color:white;" href="http://qinghe9986.top:2">http://qinghe9986.top:2</a>
+				</div>
+			</div>
+			<div class="mw-gotop" id="go-top">
+
+			</div>
+		</div>
+		<script src="js/jquery-1.10.1.min.js"></script>
+		<script src="js/swiper2.7.6.min.js"></script>
+		<script>
+			var bannerSwiper = new Swiper('.mw-studios-banner', {
+				calculateHeight: true,
+				cssWidthAndHeight: 'height',
+				pagination: '.pagination',
+				paginationClickable: true
+			});
+			$('.banner-swiper-prev').click(function() {
+				bannerSwiper.swipePrev();
+
+			});
+			$('.banner-swiper-next').click(function() {
+				bannerSwiper.swipeNext();
+			});
+			var studioSwiper = new Swiper('.mw-studios', {
+				calculateHeight: true,
+				cssWidthAndHeight: 'height',
+				onlyExternal: true
+			});
+			$('.studios-swiper-prev').click(function() {
+				studioSwiper.swipePrev();
+			});
+			$('.studios-swiper-next').click(function() {
+				studioSwiper.swipeNext();
+			});
+			var proSwiper = new Swiper('.project', {
+				calculateHeight: true,
+				cssWidthAndHeight: 'height',
+				speed: 500,
+				centeredSlides: true,
+				onSlideChangeStart: function() {
+					$(".pr-tabs .active").removeClass('active')
+					$(".pr-tabs li").eq(proSwiper.activeIndex).addClass('active')
+				},
+				onSlideChangeEnd: function(swiper) {
+					var num = proSwiper.activeIndex + 1
+					$('#swiper-number').text('0' + num)
+				}
+			});
+			$('.pr-swiper-prev').click(function() {
+				1
+				proSwiper.swipePrev();
+			});
+			$('.pr-swiper-next').click(function() {
+				proSwiper.swipeNext();
+			});
+			$(".pr-tabs li").on('touchstart mousedown', function(e) {
+				e.preventDefault()
+				$(".tabs .active").removeClass('active')
+				$(this).addClass('active')
+				proSwiper.swipeTo($(this).index())
+			})
+			$(".pr-tabs li").click(function(e) {
+				e.preventDefault()
+			});
+			var mySwiper = new Swiper('.jion', {
+				pagination: '.JionPagination',
+				paginationClickable: true,
+				loop: true,
+				calculateHeight: true,
+				cssWidthAndHeight: 'height',
+			});
+			$('.jion-swiper-prev').click(function() {
+				mySwiper.swipePrev();
+			});
+			$('.jion-swiper-next').click(function() {
+				mySwiper.swipeNext();
+			});
+
+			$('#GoProject').click(function() {
+				$('html,body').animate({
+					scrollTop: $("#project").offset().top
+				}, 1000)
+			});
+			$('#GoTeam').click(function() {
+				$('html,body').animate({
+					scrollTop: $("#team").offset().top
+				}, 2000)
+			});
+
+			$(window).scroll(function(e) {
+				if ($(window).scrollTop() > 1000)
+					$("#go-top").fadeIn(1000);
+				else
+					$("#go-top").fadeOut(1000);
+			});
+
+			$('#go-top').click(function() {
+				$('html,body').animate({
+					scrollTop: 0
+				}, 2000)
+			});
+
+			$('.jionBox').each(function() {
+				var wrap = $(this).find('.jion-content');
+				var wrap_h = $(this).find('.jion-content').height();
+				var inner_h = $(this).find('.jion-over').height();
+				var arrow = $(this).find('.arrow');
+				if (inner_h > wrap_h) {
+					arrow.show();
+				} else {
+					arrow.hide();
+				}
+				arrow.click(function() {
+					if (arrow.hasClass('up')) {
+						wrap.height(wrap_h);
+						arrow.removeClass('up');
+					} else {
+						wrap.css({
+							height: 'auto'
+						});
+						arrow.addClass('up');
+					}
+				});
+			});
+
+			$('#home_videoTwo').on('click', function() {
+				const video = document.getElementById("home_videoTwo")
+				if (video.paused || video.ended) {
+					video.play();
+				} else {
+					video.pause();
+				}
+			})
+
+			$("#showCode").click(function(event) {
+				$("#EwmCode").show();
+			});
+
+			$('.mw-root').on('click', function(event) {
+				var ewmEl = $('#showCode');
+				if ((!ewmEl.is(event.target) && ewmEl.has(event.target).length === 0) && $("#showCode").is(':visible')) {
+					$("#EwmCode").hide();
+				}
+			});
+		</script>
+
+	</body>
+	
+</html>

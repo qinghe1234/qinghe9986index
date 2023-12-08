@@ -1,0 +1,836 @@
+@media (min-width: 992px) {
+    .uy-header {
+        position: relative;
+        height: 100px;
+        display: block;
+        box-sizing: border-box;
+        padding: 0px;
+    }
+
+    .uy-header .uy-logo {
+        position: absolute;
+        left: 0px;
+        top: 50%;
+        z-index: 5;
+        height: 49px;
+        width: 100px;
+        margin-top: -25px;
+    }
+
+    .uy-header .uy-nav-switch {
+        display: none !important;
+    }
+
+    .uy-header .uy-nav {
+        position: absolute;
+        display: block;
+        border-top: 0;
+        padding-top: 0px;
+        box-sizing: border-box;
+        margin-top: 20px;
+        left: 20%;
+        top: 50%;
+        margin-top: -15px;
+    }
+
+    .uy-header .uy-nav ul {
+        text-align: left;
+        font-size: 0;
+    }
+
+    .uy-header .uy-nav ul li {
+        width: auto;
+        display: inline-block;
+        border-bottom: 0;
+        padding: 0px;
+        margin: 0px 35px;
+    }
+
+    .uy-header .uy-nav li a {
+        color: #fff;
+        display: block;
+    }
+
+    .uy-header .uy-nav ul li a:hover {
+        color: #ee7800;
+    }
+
+    .uy-header .uy-nav ul .active {
+        border-bottom: 2px solid #ee7800;
+    }
+
+    .uy-english {
+        position: absolute;
+        top: -50px;
+        right: -10px;
+    }
+
+    .uy-body {
+        padding-top: 0px;
+    }
+
+    .uy-banner {
+        padding-top: 0;
+    }
+
+    .uy-home_padding {
+        position: relative;
+        padding-bottom: 97.894737%;
+        overflow: hidden;
+    }
+
+    .uy-home_ip,
+    .uy-home-program,
+    .uy-home-app,
+    .uy-home_sur {
+        padding: 5%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+
+    .uy-home_pul-title {
+        font-size: 28px;
+    }
+
+    .uy-home_ip-main .ip-item {
+        width: 33.3333%;
+        display: inline-block;
+        text-align: center;
+    }
+
+    .uy-home_ip-main .ip-item:first-child {
+        display: inline-block;
+        margin-left: 16.66665%;
+    }
+
+    .uy-home_ip-main .ip-item:nth-child(2) {
+        margin-right: 16.66665%;
+    }
+
+    .uy-home-paddingTwo {
+        position: relative;
+        padding-bottom: 110.3125%;
+        overflow: hidden;
+    }
+
+
+    .gram-main {
+        padding-top: 10px;
+    }
+
+    .gram-main .gram-item {
+        margin-bottom: 10px;
+    }
+
+    .gram-main .gram-item .gram-pic {
+        padding: 0px 25%;
+    }
+
+    .gram-main .gram-item .gram-pic img {
+        border-radius: 20px;
+        width: 100%;
+        height: auto;
+    }
+
+
+    .app-main .app-item .app-pic {
+        width: 100px;
+    }
+
+    .app-main .app-item .app-text {
+        font-size: 18px;
+    }
+
+    /*新闻&招聘*/
+
+    .news-main {
+        margin-top: 0px;
+        position: relative;
+        padding-bottom: 49.010417%;
+    }
+
+    .news-main .news-pic {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    .news-main .news-company {
+        position: absolute;
+        background: #fff;
+        border-radius: 10px;
+        z-index: 1;
+        left: 5%;
+        top: 5%;
+        /*
+        left:12.760417%;
+        top:9.895833%;
+*/
+    }
+
+
+    .news-video {
+        width: 200px;
+        position: absolute;
+        padding: 0;
+        top: 5%;
+        left: 50%;
+        z-index: 1;
+    }
+
+    .news-video .news-video-item {
+        border-radius: 10px;
+    }
+
+    .news-video .video-text {
+        background: #fff;
+        font-size: 13px;
+    }
+
+    .news-jion {
+        position: absolute;
+        top: 5%;
+        margin: 0;
+        right: 5%;
+        z-index: 1;
+        width: 200px;
+    }
+
+
+    .news-jion .jion-text {
+        font-size: 13px;
+
+    }
+
+    /*底部*/
+    .uy-footer {
+        margin-top: 40px;
+        font-size: 0;
+    }
+
+    .uy-footerMenu {
+        width: 70%;
+        display: inline-block;
+    }
+
+    .uy-footerMenu ul {
+        text-align: left;
+        padding: 10px 0;
+    }
+
+    .uy-footerMenu ul li {
+        padding: 0px 10px;
+        font-size: 16px;
+    }
+
+    .uy-footerMenu ul li:first-child {
+        padding-left: 0;
+    }
+
+    .uy-footerIco {
+        display: inline-block;
+        width: 30%;
+        text-align: right;
+        padding: 0;
+    }
+
+    .uy-footerIco .ico_item {
+        display: inline-block;
+        margin: 0px 11px;
+    }
+
+    .uy-footerIco .ico_item:last-child {
+        margin-right: 0;
+    }
+
+
+    .uy-copyright {
+        margin-top: 40px;
+        text-align: left;
+        padding: 40px 0;
+    }
+
+    .uy-copyright .uy-footerLogo {
+        display: inline-block;
+        padding: 0;
+        border-right: 1px solid #e6e6e6;
+        padding-right: 40px;
+        vertical-align: middle;
+    }
+
+    .uy-copyright .uy-footerLogo .footerLogo-pic {
+        width: 130px;
+    }
+
+    .uy-copyright .uy-copy {
+        display: inline-block;
+        padding: 0px;
+        padding-left: 40px;
+        vertical-align: middle;
+    }
+
+
+    .uy-copyright .uy-copy .inline {
+        display: inline;
+    }
+
+    .uy-copyright .uy-code {
+        float: right;
+        display: inline-block;
+        text-align: right;
+    }
+
+    /*衍生品*/
+    .uy-Surrounding .uy-home_paert {
+        margin-top: 80px;
+    }
+
+    .business-left {
+        margin-top: 0px;
+        border-radius: 30px;
+    }
+
+    .business-ul li {
+        font-size: 20px;
+        padding: 20px 0;
+    }
+
+    .business-right {
+        margin-top: 0px;
+        margin-left: -50px;
+        border-radius: 30px;
+    }
+
+    .business-main {
+        padding: 3.684867% 14% 0 20%;
+    }
+
+    .business-title {
+        font-size: 32px;
+    }
+
+    .business-content {
+        font-size: 14px;
+    }
+
+
+    .team-left {
+        margin-top: 0px;
+        border-radius: 30px;
+    }
+
+    .team-right {
+        margin-top: 0px;
+        margin-right: -50px;
+        border-radius: 30px;
+    }
+
+    .aims-left {
+        margin-top: 0px;
+        border-radius: 30px;
+    }
+
+    .aims-right {
+        margin-top: 0px;
+        margin-left: -50px;
+        border-radius: 30px;
+    }
+
+    .aims-ico {
+        right: -4.90625%;
+    }
+
+    .sur-bottom-banner {
+        margin-top: 80px;
+    }
+
+
+    /*IP*/
+    .um-back {
+        padding: 50px 0;
+    }
+
+    .um-emp {
+        padding: 0 15%;
+    }
+
+    .um-pub-title {
+        font-size: 36px;
+    }
+
+    .um-pub-title_black {
+        margin-top: 50px;
+        font-size: 30px;
+    }
+
+    .um-pub-tips {
+        margin-top: 20px;
+        font-size: 18px;
+    }
+
+    .um-emp .emp-main {
+        margin-top: 50px;
+        padding: 0px auto;
+    }
+
+    .um-emp .emp-main span {
+        display: block;
+    }
+
+    .um-emp .emp-main .emp-text_01 {
+        left: -5%;
+        top: 5%;
+    }
+
+    .um-emp .emp-main .emp-text_02 {
+        right: 0%;
+        top: 7%;
+    }
+
+    .um-emp .emp-main .emp-text_03 {
+        left: 0%;
+        bottom: 10%;
+        text-align: right;
+    }
+
+    .um-emp .emp-main .emp-text_04 {
+        right: -5%;
+        bottom: 10%;
+    }
+
+    .um-emp .emp-main .emp-back {
+        width: 100%;
+        margin: 0px auto;
+        background: url(../image/um_back1.png) no-repeat center top;
+        background-size: contain;
+        padding-bottom: 60%;
+    }
+
+    .um-you {
+        padding: 0px 5%;
+    }
+
+    .um-you .you-main {
+        margin-top: 50px;
+    }
+
+    .um-you .you-main .you-item {
+        margin-top: 50px;
+    }
+
+
+    .um-you .you-main .you-item .item-title {
+        font-size: 24px;
+    }
+
+    .um-you .you-main .you-item .item-content {
+        font-size: 14px;
+    }
+
+    /*U优*/
+    .um-Uyou {}
+
+    .um-Uyou .Uyou-main {
+        margin-top: 50px;
+    }
+
+    .um-Uyou .Uyou-main .Uyou-item {
+        margin-top: 20px;
+        width: 19.444444%;
+        display: inline-block;
+        padding: 0px 7px;
+        vertical-align: bottom;
+    }
+
+    .um-Uyou .Uyou-main .Uyou-item:nth-child(3) {
+        margin: 0%;
+        width: 22.22222222%;
+    }
+
+
+    .um-partner {
+        margin-top: 50px;
+        padding: 0px 2%;
+    }
+
+    .um-partner .partner-main {
+        padding: 20px 0%;
+        margin: 0px;
+        margin-top: 20px;
+    }
+
+    .swiper-partner-container {
+        margin-top: 80px;
+    }
+
+    .um-partner .partner-main .partner-top {
+        top: -15px;
+        width: 350px;
+    }
+
+    .um-partner .partner-main .partner-top .partener-title {
+        padding-top: 8%;
+        font-size: 20px;
+    }
+
+    .um-partner .partner-main .partner-content {
+        padding: 0px 10%;
+    }
+
+    .um-partner .partner-main .partner-content .partner-item {
+        width: 20%;
+        padding: 10px 20px;
+    }
+
+    .um-partner .partner-main .partner-content .partner-item:nth-child(11) {
+        margin-left: 2%;
+    }
+
+
+    .um-ability {
+        margin-top: 50px;
+    }
+
+    .um-ability .ability-main {
+        margin-top: 50px;
+    }
+
+    .um-ability .ability-main .ability-item {
+        width: 25%;
+        padding: 0px 1%;
+    }
+
+
+    .um-multi {
+        padding: 0px 3%;
+    }
+
+    .um-multi .multi-main {
+        margin-top: 50px;
+    }
+
+    .um-multi .multi-main .multi_item_01 {
+        padding-left: 50px;
+    }
+
+    .um-multi .multi-main .multi_item_01 .title {
+        width: 120px;
+        left: -50px;
+        top: 60px;
+        font-size: 16px;
+        text-align: left;
+    }
+
+    .um-multi .multi-main .multi_item_01 .line {
+        width: 10px;
+        left: 30px;
+    }
+
+    .um-multi .multi-main .multi_item_01 .line::before {
+        width: 18px;
+        height: 13px;
+        left: -4px;
+        top: -8px;
+    }
+
+
+    .um-multi .multi-main .multi_item_01 .list .item {
+        width: 11.111111111%;
+    }
+
+    .um-multi .multi-main .multi_years {
+        padding-left: 30px;
+    }
+
+    .um-multi .multi-main .multi_years .year1 {
+        width: 30%;
+    }
+
+    .um-multi .multi-main .multi_years .year3 {
+        width: 20%;
+    }
+
+    .um-multi .multi-main .multi_years .year4 {
+        width: 20%;
+    }
+
+    .um-multi .multi-main .year1 .line {
+        height: 10px;
+    }
+
+    .um-multi .multi-main .year1 .text {
+        font-size: 16px;
+    }
+
+
+
+    .um-multi .multi-main .multi_years .year1.year4 .line::after {
+        width: 20px;
+        height: 16px;
+        right: -10px;
+        top: -3px;
+        -ms-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+
+    .um-multi .multi-main .multi_years .year1.year4 .text {
+        font-size: 16px;
+    }
+
+    .um-union {
+        padding: 0px 15%;
+    }
+
+    .um-union .um-pub-title_black {
+        margin-top: 50px;
+    }
+
+    .um-union .union-main {
+        margin-top: 50px;
+    }
+
+    .um-menu_item {
+        padding: 10px 20px 10px 10px;
+    }
+
+
+    /*节目库*/
+    .uy-gram {
+        position: relative;
+        margin-top: -40px;
+    }
+
+    .uy-gram .gram-filters {
+        text-align: center;
+        font-size: 0;
+    }
+
+    .uy-gram .gram-filters li {
+        width: 180px;
+        margin: 0px 5px;
+        font-size: 16px;
+    }
+
+    .uy-gram .gram-main {
+        margin-top: 50px;
+    }
+
+    .uy-gram .gram-main ul li {
+        width: 33%;
+        padding: 10px 10px;
+    }
+
+    .uy-gram .gram-main ul li .gram-title {
+        font-size: 16px;
+
+    }
+
+    /*APP*/
+    .app-banner {
+        background: url(../image/app_banner.jpg) no-repeat center;
+        background-size: cover;
+        position: relative;
+    }
+
+    .app-banner .app-position {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        padding-top: 0;
+        padding-right: 0;
+        text-align: center;
+        padding-left: 55%;
+    }
+
+    .app-banner .app_info {
+        margin-top: 50%;
+        display: inline-block;
+        width: 280px;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+
+
+    .app-banner .app_info .app-tips {
+        margin-top: 10px;
+        text-align: left;
+    }
+
+    .app-banner .app_info .app-tips .big {
+        font-size: 26px;
+        white-space: nowrap;
+    }
+
+    .app-banner .app_info .app-tips .small {
+        font-size: 12px;
+        white-space: nowrap;
+    }
+
+    .app-banner .app-down {
+        margin-top: 35px;
+    }
+
+    .app-banner .app_info .app-down .app-ico {
+        display: inline-block;
+        width: 50%;
+        padding: 5px 10px;
+    }
+
+
+    .app-interest {
+        margin-top: 100px;
+
+    }
+
+    .app-interest .interest-title {
+        font-size: 24px;
+    }
+
+    .app-interest .interest-tips {
+        margin-top: 30px;
+        font-size: 14px;
+    }
+
+    .app-interest .interest-content {
+        font-size: 0;
+        margin-top: 50px;
+    }
+
+    .app-interest .interest-item {
+        width: 25%;
+        margin-right: 12.5%;
+        font-size: 40px;
+        border-radius: 15px;
+        padding-bottom: 20%;
+    }
+
+
+    .app-light {
+        margin-top: 120px;
+        margin-bottom: 120px;
+    }
+
+    .app-light .app-main {
+        padding: 0;
+    }
+
+    .app-light .light-title {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .app-light .light-main {
+        margin-top: 80px;
+    }
+
+    .light-safety {
+        height: 0;
+        position: relative;
+        padding-bottom: 45.7%;
+    }
+
+    .safety-content {
+        margin-top: 0;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+
+    .light-main .row.pt-margin {
+        margin-top: 80px;
+    }
+
+    .app-pub-title {
+        font-size: 20px;
+        padding: 10px 0;
+    }
+
+    .app-pub-content {
+        font-size: 14px;
+        padding: 10px 0;
+        line-height: 1.8;
+        color: #6e6e6e;
+    }
+
+    .safety-position {
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        padding-right: 22%;
+
+    }
+
+    .light-safety_box.ment {
+        padding-bottom: 90%;
+
+    }
+
+    .light-safety.ment {
+        padding-bottom: 128%;
+    }
+
+    .light-safety.ment .safety-position {
+        padding-right: 0;
+        padding-left: 10%;
+    }
+
+
+
+
+
+    .light-safety_pic {
+        padding-bottom: 65.420561%;
+        background: url(../image/app_part01.jpg) no-repeat center;
+        background-size: cover;
+        height: 0;
+        border-radius: 15px;
+    }
+
+    .light-parent_box {
+        margin-top: 0px;
+    }
+
+    .light-parent_pic {
+        padding-bottom: 103.667954%;
+        background: url(../image/app_part3.png) no-repeat center;
+        background-size: cover;
+        height: 0;
+    }
+
+    .light-safety.parent {
+        padding-bottom: 72.7%;
+    }
+
+    .light-share_box {
+        margin-top: 0px;
+    }
+
+    .light-safety.share {
+        padding-bottom: 64.14791%;
+
+    }
+
+
+    .light-safety.share .safety-position {
+        padding-left: 10%;
+    }
+
+    .light-share_pic {
+        padding-bottom: 64.14791%;
+        background: url(../image/app_part4.png) no-repeat center;
+        background-size: cover;
+        height: 0;
+    }
+
+
+}
